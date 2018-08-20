@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.zgd.ssm</groupId>
+    <artifactId>SSM-Parent</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <!--聚合模块-->
+    <modules>
+        <module>../SSM-Core</module>
+        <module>../SSM-Common</module>
+        <module>../SSM-DAO</module>
+        <module>../SSM-Web</module>
+        <module>../SSM-Service</module>
+    </modules>
+    <packaging>pom</packaging>
+
+</project>
